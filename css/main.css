@@ -1,0 +1,129 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'source sans pro', sans-serif;
+    color: #2b2b2b
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 399px;
+    float: left;
+}
+
+/****** HEADER ******/
+#beans {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    font-family: "Montserrat", serif;
+    padding: 20px 0 0 24px;
+}
+
+/****** WELCOME ******/
+main h2 {
+    font-size: 18px;
+    color: #77a466;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+}
+
+main p {
+    font-family: "Montserrat", serif;
+}
+
+/****** SPECIALS, REVIEWS, CONTACT ******/
+#contact {
+    padding-left: 25px;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+    height: 207px;
+}
+
+#contact p {
+    line-height: 25px;
+}
+
+#review {
+    border: 3px solid #eee;
+    padding-left: 25px;
+}
+
+#special {
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+    height: 207px;
+}
+
+.third-width h3 {
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+}
+
+.third-width p {
+    font-style: "Montserrat", serif;
+    padding-right: 50px;
+    line-height: 25px;
+}
+.third-width ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.third-width ul li a {
+    font-size: 16px;
+    font-style: "Montserrat", serif;
+    color: #77a466;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+/****** FOOTER ******/
+main footer h2 {
+    color: #000000;
+    text-align: center;
+}
+
+main footer h2 span {
+    color: #77a466;
+    font-family: "Galada", serif;
+    text-transform: lowercase;
+}
